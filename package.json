@@ -1,0 +1,21 @@
+{
+  "name": "speed-test",
+  "version": "1.0.0",
+  "description": "Testing NodeJS runtime speed, with the regards to functional and object-oriented programming paradigms.",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "./runner.sh 10",
+    "clear": "./clear.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "functional",
+    "object-oriented"
+  ],
+  "author": "Tin Tomašić and Daniel Škrlac",
+  "devDependencies": {
+    "@types/node": "^18.15.11"
+  }
+}
